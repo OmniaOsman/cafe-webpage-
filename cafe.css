@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     padding: 0;
+     margin: 0;
+}
+
+header {
+     display: flex;
+     width: 90%;
+     padding: 15px 50px;
+     position: absolute;
+     z-index: 1;
+}
+
+nav {
+     /* height: 3rem; */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+}
+
+.nav-logo {
+     display: flex;
+     width: 40px;
+     margin: 2px;
+     align-items: center;
+}
+
+.logo {
+     font-size: 2em;
+     text-decoration: none;
+     font-family: 'Orbitron', sans-serif;
+     color: #fff1e6;
+}
+
+.nav-list {
+     display: flex;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     font-size: 21px;
+}
+
+.nav-item {
+     color: white;
+     margin-left: 30px;
+}
+
+.nav-link {
+     text-decoration: none;
+     color: white;
+     font-family: 'Texturina', serif;
+}
+
+.nav-link:hover {
+
+     color: #db6400;
+}
+
+.home-section {
+     position: relative;
+     display: flex;
+     background-image: url('images/jazmin-quaynor-9Y8vxVQN4o4-unsplash1.jpg');
+     align-items: center;
+     width: 100%;
+     min-height: 100vh;
+     justify-content: center;
+     background-size: cover;
+}
+
+.home-section-content {
+     max-width: 900px;
+     text-align: center;
+}
+
+.home-section-title {
+     color: white;
+     font-size: 5.5rem;
+     font-family: 'Yusei Magic', sans-serif;
+}
+
+h2{
+     margin: 0;
+}
+
+.home-section-text {
+     font-family: 'Source Sans Pro', sans-serif;
+     color: white;
+     font-size: 20px;
+}
+
+p{
+     padding: 0;
+     margin: 0;
+}
+
+.button {
+     text-decoration: none;
+     color: white;
+     font-size: 2em;
+     background-color: #db6400;
+     text-transform: uppercase;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     padding: 10px 30px;
+     transition: 1s;
+}
+
+.button:hover {
+     letter-spacing: 7px;
+}
