@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani&display=swap');
 
 html {
      scroll-behavior: smooth;
@@ -18,6 +19,14 @@ header {
      padding: 15px 50px;
      position: absolute;
      z-index: 1;
+}
+
+/* scroll navBar */
+.scroll {
+     /* width: 90%; */
+     background-color: white;
+     padding: 10px 100px;
+     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 
 nav {
@@ -62,7 +71,6 @@ nav {
 }
 
 .nav-link:hover {
-
      color: #db6400;
 }
 
@@ -108,7 +116,7 @@ p{
      color: white;
      font-size: 2em;
      background-color: #db6400;
-     text-transform: uppercase;
+     /* text-transform: uppercase; */
      font-family: 'Roboto', sans-serif;
      font-size: 25px;
      padding: 10px 30px;
@@ -118,3 +126,47 @@ p{
 .button:hover {
      letter-spacing: 7px;
 }
+/* menu */
+
+.menu-section-content {
+     padding: 40px 0 40px 0;
+}
+
+.menu-title {
+     color: #1e3932;
+     font-size: 60px;
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     text-transform: uppercase;
+     font-family: 'Mukta Vaani', sans-serif;
+}
+
+.menu-section {
+     padding: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     min-height: 85vh;
+     margin: 0 0 100px 0;
+     justify-content: center;
+}
+
+.img {
+     padding: 5px 18px 10px 0;
+}
+
+.grid-container {
+     display: grid;
+     grid-gap: 30px;
+     grid-template-columns: auto auto auto;
+     padding: 10px;
+} 
+   
+.grid-item {
+     padding: 15px;
+     font-size: 30px;
+     text-align: center;
+     width: 405px;
+     height: 300px;
+}
+

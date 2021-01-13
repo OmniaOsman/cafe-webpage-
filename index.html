@@ -11,34 +11,85 @@
 </head>
 <body>
      <!-- Header and NavBar -->
-     <header>
+     <header id="header" class="sticky">
           <nav>
-               
                <a href="#" class="nav-logo logo"> <img src="images/sign.png" class="nav-logo "> café </a>
-
-               <ul class="nav-list">
+               <div class="nav-toggle" id="nav-toggle" onclick="toggleIcon()"></div>
+               <ul class="nav-list" id="nav-list">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Review</a></li>
                     <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
                     <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
                </ul>
           </nav>
      </header>
-     <!-- Home Section -->
+     
      <main>
+          <!-- Home Section -->
           <section class="home-section section">
                <div class="home-section-content">
                     <h2 class="home-section-title">NOT JUST COFFEE</h2>
-                    <p class="home-section-text">Sed ut perspiciatis unde omnis iste natus error sit 
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et 
-                    quasi architecto beatae vitae dicta sunt explicabo. </p>
+                    <p class="home-section-text">Lorem Ipsum is simply 
+                         dummy text of the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's standard dummy 
+                         text ever since the 1500s </p>
                     <div style="padding-top: 50px;">
-                         <a href="#" class="button"> café menu </a>
+                         <a href="#menu1" class="button">café menu</a>
                     </div>
                </div>
           </section>
+
+          <!-- Menu Section -->
+          <section id="menu">
+               <div style="background-color: white;">
+                    <p class="menu-title"> <strong>café menu</strong></p>
+               </div>
+               <div class="menu-section" id="menu1"> 
+                    <div class="img">
+                         <img src="images/menu1.jpg" alt="menu" width="300" height="300">
+                         <h2 style="text-align: center;">hot coffee</h2>
+                    </div>
+                    <div class="img">
+                         <img src="images/menu2.jpg" alt="menu"  width="300" height="300">
+                         <h2 style="text-align: center;">cold coffee</h2>
+                    </div>
+                    <div class="img">
+                         <img src="images/menu3.jpg" alt="menu"  width="300" height="300">
+                         <h2 style="text-align: center;">cold coffee</h2>
+                    </div>
+                    <div class="img">
+                         <img src="images/menu4.jpg" alt="menu"  width="300" height="300">
+                         <h2 style="text-align: center;">cold coffee</h2>
+                    </div>
+                    <div class="img">
+                         <img src="images/menu5.jpg" alt="menu"  width="300" height="300">
+                         <h2 style="text-align: center;">cold drink</h2>
+                    </div>
+                    <div class="img">
+                         <img src="images/menu6.jpg" alt="menu"  width="300" height="300">
+                         <h2 style="text-align: center;">cold drink</h2>
+                    </div>
+                    <div class="img">
+                         <img src="images/menu7.jpg" alt="menu"  width="300" height="300">
+                         <h2 style="text-align: center;">cold drink</h2>
+                    </div>
+                    <div class="img">
+                         <img src="images/menu8.jpg" alt="menu"  width="300" height="300">
+                         <h2 style="text-align: center;">cold drink</h2>
+                    </div>
+               </div>
+          </section>
+
+          <!-- review -->
+          <section id="review">
+               <div class="grid-container">
+                    
+               </div>
+          </section>
      </main>
+
+     <!-- JS file -->
+     <script src="cafe.js"></script>
 </body>
 </html>
