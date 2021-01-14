@@ -274,6 +274,11 @@ input[type="submit"]:hover {
 }
 
 @media (min-width: 767px) {
-     
+     header{
+          padding: 10px 20px;
+     }
+     .grid-container .grid-item nav{
+          margin: auto;
+     }
 }
 
