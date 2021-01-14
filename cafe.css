@@ -155,6 +155,12 @@ p{
      padding: 5px 18px 10px 0;
 }
 
+.img:hover {
+     zoom: 1.1;
+}
+
+/* customer review */
+
 .grid-container {
      display: grid;
      grid-gap: 20px;
@@ -172,6 +178,10 @@ p{
      height: 300px;
 }
 
+.grid-item:hover {
+     zoom: .99;
+}
+
 .review-img {
      border: 1.5px solid black;
      background-color: rgb(199, 199, 199);
@@ -181,4 +191,59 @@ p{
      margin-bottom: 25px;
 }
 
+/* contact us */
+
+.contact-section {
+     background-color: #00dba81d;
+     /* padding: 10px; */
+     display: flex;
+     /* flex-wrap: wrap; */
+     min-height: 85vh;
+}
+	
+.form{
+     margin: 25px 25px 25px 0;
+     margin-right: 100px;
+     border-radius: 6px;
+     box-shadow: 15px 15px rgba(210, 105, 30, 0.866);
+     background: white;
+     width: 100%;
+     height: 70vh;
+     padding: 20px;
+}
+
+label {
+     font-size: 20px;
+     font-family: 'Yusei Magic', sans-serif;
+     color: chocolate;
+}
+
+input, textarea {
+     margin-bottom: 10px;
+     border: 1px solid black;
+     /* width: 100%; */
+     min-height: 2em;
+     outline: none;
+     background-color: rgba(240, 240, 240, 0.448);
+     resize: none;
+     width: 95%;
+     font-size: 20px;
+}
+
+input[type="submit"]{
+     margin-top: 10px;
+     border: none;
+     width: 6em;
+     height: 2em;
+     border: 2px solid chocolate;
+     background-color: unset;
+     border-radius: unset;
+     font-size: 20px;
+     font-family: 'Yusei Magic', sans-serif;
+}
+
+input[type="submit"]:hover {
+     background-color: chocolate;
+     cursor: pointer;
+}
 
